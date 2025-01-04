@@ -1,0 +1,140 @@
+/* VARIABLES */
+:root {
+    --clr-green_dark: #049A40;
+    --clr-green_light: #0BF964;
+    --clr-pink_dark: #E10BF9;
+    --clr-pink_light: #F3A0FB;
+    --clr-white1: #F5F5F5;
+}
+
+/* STYLE DEFAULT */
+body {
+    background-color: var(--clr-white1);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+hr {
+    border: none;
+    background-color: var(--clr-pink_dark);
+    height: 2px;
+    width: 25%;
+    margin: 20px auto;
+}
+
+p {
+    line-height: 25px;
+    padding: 0 10px;
+}
+
+/* HEADER */
+.menu {
+    background-color: var(--clr-green_light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu__img {
+    padding: 10px;
+    max-height: 100px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav__link {
+    padding: 20px 10px;
+}
+
+.text__intro {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+/* MAIN */
+.section__title {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
+.section__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about__text {
+    flex: 6 1 160px;
+    text-align: center;
+}
+
+.about__img {
+    flex: 1 1 350px;
+    max-height: 100px;
+}
+
+.course__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.course__img {
+    max-height: 100px;
+}
+
+.course__item {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.course__title {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.plain {
+    background-color: var(--clr-pink_light);
+}
+
+.plain__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plain__item {
+    width: 290px;
+    margin: 10px;
+    border: 2px solid var(--clr-green_dark);
+    text-align: center;
+}
+
+.plain__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+

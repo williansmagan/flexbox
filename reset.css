@@ -1,0 +1,36 @@
+:root {
+    --clr_white: #FFF;
+    --clr_black: #000;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+a, a:hover, a:active, a:link {
+    text-decoration: none;
+    color: var(--clr_black);
+}
+
+ul {
+    list-style-type: none;
+}

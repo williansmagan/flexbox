@@ -1,0 +1,19 @@
+.d-flex {
+    display: flex;
+}
+
+.align-c {
+    align-items: center;
+}
+
+.content-sb {
+    justify-content: space-between;
+}
+
+.wrap-w {
+    flex-wrap: wrap;
+}
+
+.p-20 {
+    padding: 20px;
+}
